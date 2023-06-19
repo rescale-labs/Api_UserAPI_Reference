@@ -23,6 +23,7 @@ def calculate_pi(max_range):
         iter += 1
         if iter % (max_range / 100) == 0:
             print(f"{iter}\t{s}\t{abs(s-Decimal(math.pi))}")
+            sys.stdout.flush()
 
     return s
 
