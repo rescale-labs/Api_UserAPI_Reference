@@ -1,0 +1,6 @@
+/file/set-batch-options no yes yes no
+/file/rc tjunction_plot.cas
+/solve/init/init/
+/solve/iterate 500
+/file/wcd tjunction_plot%i.cas.gz
+/exit yes
